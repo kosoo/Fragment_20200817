@@ -10,6 +10,9 @@ import kotlinx.android.synthetic.main.fragment_second.*
 import kr.co.tjoeun.fragment_20200817.R
 
 class SecondFragment : Fragment() {
+
+
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -22,7 +25,7 @@ class SecondFragment : Fragment() {
         super.onActivityCreated(savedInstanceState)
 
         toastBtn.setOnClickListener {
-//            Toast.makeText(this, )
+            Toast.makeText(activity, "토스트 출력", Toast.LENGTH_SHORT).show()
         }
 
     }
