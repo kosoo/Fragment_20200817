@@ -11,6 +11,12 @@
         android:tag="firstFrag"
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        class="kr.co.tjoeun.fragment_20200817.fragments.FirstFragment"/>
+        class="kr.co.tjoeun.fragment_20200817.fragments.FirstFragment" />
+
+    <fragment
+        android:tag="secondFrag"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        class="kr.co.tjoeun.fragment_20200817.fragments.SecondFragment" />
 
 </LinearLayout>
