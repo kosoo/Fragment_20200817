@@ -11,8 +11,6 @@ import kr.co.tjoeun.fragment_20200817.R
 
 class SecondFragment : Fragment() {
 
-
-
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -24,6 +22,7 @@ class SecondFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
+//      화면 정보로 activity를 사용함
         toastBtn.setOnClickListener {
             Toast.makeText(activity, "토스트 출력", Toast.LENGTH_SHORT).show()
         }
